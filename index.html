@@ -1,11 +1,78 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Marina Watowich</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .about-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        .about-section img {
+            max-width: 100%;
+            height: auto;
+        }
+        .about-text {
+            width: 60%;
+            text-align: left;
+        }
+        .follow-panel {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .follow-panel a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        .follow-panel a img {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+    </style>
 </head>
 <body>
-    <h1>Marina Watowich</h1>
-    <p style="font-size: 28;">Website forthcoming. Until then please see <a href="https://lea-lab.org/team.html"> Lea Lab at Vanderbilt University</a>.</p>
+
+    <header>
+        <h1>Marina Watowich</h1>
+    </header>
+
+    <section class="about-section">
+        <div class="about-text">
+            <h2>I am a genomicist and I study how the environment affects the natural aging process.</h2>
+            <p>I am particularly interested in understanding the impact of the environment on the aging process, exploring various genomic factors and their relation to aging. <strong>Aging</strong> is a significant focus of my research.</p>
+        </div>
+        <div class="follow-panel">
+            <h3>Follow Me</h3>
+            <a href="https://github.com/mwatowich">
+                <img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="GitHub Icon">GitHub
+            </a>
+            <a href="https://twitter.com/MarinaWatowich">
+                <img src="https://image.flaticon.com/icons/png/512/23/23931.png" alt="Twitter Icon">Twitter
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p style="font-size: 28;">Website forthcoming. Until then please see <a href="https://lea-lab.org/team.html"> Lea Lab at Vanderbilt University</a>.</p>
+    </footer>
+
 </body>
 </html>

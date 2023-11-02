@@ -14,6 +14,13 @@
             text-align: center;
             padding: 20px 0;
         }
+        .header-border {
+            display: block;
+            width: 80px;
+            height: 3px;
+            background: black;
+            margin: 20px auto;
+        }
         .main-section {
             display: flex;
         }
@@ -23,6 +30,8 @@
         .left-section img {
             max-width: 50%;
             height: auto;
+            margin-left: auto;
+            margin-right: auto;
         }
         .right-section {
             flex: 2;
@@ -40,12 +49,24 @@
         }
         .publications h2 {
             text-align: left;
-            margin-left: 5%;
+            margin-left: 10%;
         }
         .publications p {
             text-align: left;
             margin-bottom: 20px;
-            margin-left: 5%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        footer {
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding: 10px 0;
+            align-self: center;
+        }
+        footer a {
+            color: black;
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -56,19 +77,14 @@
         <hr>
     </header>
 
-    <div class="section-wrapper">
-        <!-- Empty div to serve as the container -->
-        <div class="horizontal-line"></div>
-    </div>
-
     <div class="main-section">
         <div class="left-section">
             <img src="/images/headshot2.jpeg" alt="Marina Watowich Headshot">
         </div>
         <div class="right-section">
             <p>I am an evolutionary biologist interested in how environmental perturbations impact long-term health-related phenotypes and why some individuals are more resiliant/susceptible to adverse conditions.</p>
-            <p>In my research, I use a combinations of genomic approaches, computational techniques, and long-term observational data to understand how the environment 'gets under the skin' to result in phenotypic variation.</p>
-            <p>Currently, I am a postdoctoral researcher in the <a href="https://lea-lab.org/team.html"> Lea Lab at Vanderbilt University</a>, where I work with several small-scale, subsistence-level populations in Kenya, Malaysia, and Bolivia.</p>
+            <p>In my research, I use a combination of genomic approaches, computational techniques, and long-term observational data to understand how the environment 'gets under the skin' to result in phenotypic variation.</p>
+            <p>Currently, I am a postdoctoral researcher in the <a href="https://lea-lab.org/team.html"> Lea Lab</a> at Vanderbilt University, where I work with several small-scale, subsistence-level populations in Kenya, Malaysia, and Bolivia.</p>
         </div>
     </div>
 
@@ -78,13 +94,17 @@
             <p><strong>Watowich MM</strong>, Chiou KL, Graves B, Montague MJ, Brent LJN, Higham JP, Horvath JE, Lu A, Martinez MI, Platt ML, Schneider-Crease IA, Lea AJ, Snyder-Mackler N. (2023). Best practices for genotype imputation from low-coverage sequencing data in natural populations. <em>Molecular Ecology Resources</em></p>
             <p>Peterson SM, <strong>Watowich MM</strong>, Renner L, Martin S, Offenberg E, Lea AJ, Montague MJ, Higham JP, Snyder-Mackler N, Neuringer M, Ferguson B. (2023) Genetic basis of coat color variation in rhesus macaques: a primate model for oculocutaneous albinism. <em>G3: Genes, Genomes, Genetics</em></p>
             <p>Newman LE, Testard C, DeCasien AR, Chiou KL, <strong>Watowich MM</strong>, Janiak MC, Pavez-Fox MA, Sanchez Rosado MR, Cooper EB, Costa CE, Petersen RM, Montague MJ, Platt ML, Brent LJN, Snyder-Mackler N, Higham JP. (2023) The biology of aging in a social world: insights from free-ranging rhesus macaques. doi: 10.1101/2023.01.28.525893. <em>Neuroscience & Biobehavioral Reviews</em></p>
+            <p>Sanchez Rosado MR, Marzan-Rivera N, <strong>Watowich MM</strong>, Negron-Del Valle AD, Pantoja P, Pavez-Foz MA, Siracusa ER, Negron-Del Valle JE, Phillips D, Ruiz-Lambides A, Cayo Biobank Research Unit, Martinez MI, Montague MJ, Platt ML, Higham JP, Brent LJN, Sariol CA, Snyder-Mackler N (2021). “Immune cell composition varies by age, sex and exposure to social adversity in free-ranging Rhesus Macaques.” <em>Geroscience</em> doi: 10.1101/2021.12.06.471383</p>
             <p>Goldman EA, Chiou KL, <strong>Watowich MM</strong>, Mercer A, Sams SN, Horvath JE, Anderson JA, Cayo Biobank Research Unit, Tung J, Higham JP, Brent LJN, Martínez MI, Montague MJ, Platt ML, Sterner KN, Snyder-Mackler N. “A generalizable epigenetic clock captures aging in two nonhuman primates.” <em>bioRxiv</em>. 2022</p>
             <p>Cooper EC, <strong>Watowich MM</strong>, Beeby N, Whalen C, Montague MJ, Brent LJN, Snyder-Mackler N, Higham J (2022). “Concentrations of unrinary neopterin, but not suPAR, positively correlate with age in rhesus macaques.” <em>Frontiers in Ecology and Evolution</em></p>
             <p><strong>Watowich MM</strong>, Chiou KL, Montague MJ, Cayo Biobank Research Unit, Simons ND, Horvath JE, Ruiz-Lambides AV, Martínez MI, Higham JP, Brent LJN, Platt ML, Noah Snyder-Mackler. Natural disaster and immunological aging in a nonhuman primate. <em>PNAS</em>. 2022</p>
-            <p>Sanchez Rosado MR, Marzan-Rivera N, <strong>Watowich MM</strong>, Negron-Del Valle AD, Pantoja P, Pavez-Foz MA, Siracusa ER, Negron-Del Valle JE, Phillips D, Ruiz-Lambides A, Cayo Biobank Research Unit, Martinez MI, Montague MJ, Platt ML, Higham JP, Brent LJN, Sariol CA, Snyder-Mackler N (2021). “Immune cell composition varies by age, sex and exposure to social adversity in free-ranging Rhesus Macaques.” <em>Geroscience</em> doi: 10.1101/2021.12.06.471383</p>
             <p>Testard, C., Larson SM, <strong>Watowich MM</strong>, Kaplinsky CH, Bernau A, Faulder M, Ruiz-Lambides AV, Higham JP, Montague MJ, Snyder-Mackler N, Platt ML, Brent LJN. (2021) Rhesus macaques build new social connections after a natural disaster. <em>Current Biology</em>. https://doi.org/10.1016/j.cub.2021.03.029</p>
             <p><strong>Watowich MM</strong>, MacLean EL, Hare B, Call J, Kaminski J, Miklósi A, & Snyder-Mackler, N. (2020). Age influences domestic dog cognitive performance independent of average breed lifespan. <em>Animal Cognition</em>. https://doi.org/10.1007/s10071-020-01385-0</p>
             <p>Chiou KL, Montague MJ, Goldman EA, <strong>Watowich MM</strong>, Sams SN, Song J, Horvath JE, Sterner KN, Ruiz-Lambides AV, Martínez MI, Higham JP, Brent LJN, Platt ML, Snyder-Mackler N. Rhesus macaques as a tractable physiological model of human ageing. (2020) <em>Philos Trans R Soc Lond B Biol Sci.</em> 2020 Nov 9;375(1811):20190612. doi: 10.1098/rstb.2019.0612. Epub 2020 Sep 21. PMID: 32951555; PMCID: PMC7540946</p>
+    </div>
+
+    <div class="footer">
+        <p>2023</p>
     </div>
 
 </body>

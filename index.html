@@ -14,14 +14,15 @@
             text-align: center;
             padding: 20px 0;
         }
-        header h1 {
-            color: black;
-        }
-        hr {
-            border: 0;
+        .horizontal-line {
             height: 1px;
             background-color: black;
-            margin: 3;
+            width: 50%; /* Line spans 50% of the container */
+            margin: 0 auto; /* Centers the line */
+        }
+        .section-wrapper {
+            width: 50%; /* To limit the section width to 50% */
+            margin: 0 auto; /* Centers the section */
         }
         .main-section {
             display: flex;
@@ -30,16 +31,17 @@
             flex: 1;
         }
         .left-section img {
-            max-width: 20%;
+            max-width: 50%;
             height: auto;
         }
         .right-section {
             flex: 2;
-            text-align: center;
+            text-align: left;
         }
         .right-section p {
             margin: 0 auto;
             max-width: 66%;
+            margin-bottom: 20px;
         }
         .publications {
             background-color: #f5f5f5;
@@ -51,6 +53,7 @@
         }
         .publications p {
             text-align: center;
+            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -60,6 +63,11 @@
         <h1>Marina Watowich</h1>
         <hr>
     </header>
+
+    <div class="section-wrapper">
+        <!-- Empty div to serve as the container -->
+        <div class="horizontal-line"></div>
+    </div>
 
     <div class="main-section">
         <div class="left-section">

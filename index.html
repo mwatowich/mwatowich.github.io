@@ -6,46 +6,47 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 2;
+            margin: 0;
             padding: 0;
         }
         header {
-            background-color: #333;
-            color: white;
+            background-color: white;
             text-align: center;
             padding: 20px 0;
         }
-        .content {
+        header h1 {
+            color: black;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: black;
+            margin: 0;
+        }
+        .main-section {
             display: flex;
-            justify-content: center;
+        }
+        .left-section {
             flex: 1;
         }
-        .about-section {
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
+        .right-section {
             flex: 2;
-            max-width: 800px;
-        }
-        .about-section img {
-            max-width: 100%;
-            height: auto;
-        }
-        .about-text {
-            width: 100%;
-            text-align: left;
-            max-width: 800px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
             text-align: center;
-            padding: 20px 0;
-            align-self: center;
         }
-        footer a {
-            color: white;
-            text-decoration: underline;
+        .right-section p {
+            margin: 0 auto;
+            max-width: 70%;
+        }
+        .publications {
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        .publications h2 {
+            text-align: left;
+            margin-left: 33%;
+        }
+        .publications p {
+            text-align: center;
         }
     </style>
 </head>
@@ -53,19 +54,22 @@
 
     <header>
         <h1>Marina Watowich</h1>
+        <hr>
     </header>
 
-    <section class="about-section">
-        <div class="about-text">
-            <h2>Research overview</h2>
-            <p>I study how environmental perturbations affect the natural aging process and long-term health related phenotypes.</p>
+    <div class="main-section">
+        <div class="left-section">
+            <img src="your_headshot_image.jpg" alt="Marina Watowich Headshot">
         </div>
-        
-    </section>
+        <div class="right-section">
+            <p>I am a researcher</p>
+        </div>
+    </div>
 
-    <footer>
-        <p style="font-size: 28;">Website underdevelopment. Please see <a href="https://lea-lab.org/team.html"> Lea Lab at Vanderbilt University</a> for more information.</p>
-    </footer>
+    <div class="publications">
+        <h2>Recent publications</h2>
+        <p>Insert publication 1 here</p>
+    </div>
 
 </body>
 </html>

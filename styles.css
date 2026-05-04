@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+/* MAIN LAYOUT */
+.container {
+    display: flex;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+/* LEFT PANEL */
+.left {
+    width: 35%;
+    text-align: center;
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* PROFILE BOX */
+.profile-box {
+    margin-top: 15px;
+}
+
+.name {
+    font-size: 20px;
+    color: black;
+}
+
+.title, .affil {
+    font-size: 14px;
+    color: #666;
+}
+
+/* ICONS */
+.icons {
+    margin-top: 10px;
+}
+
+.icons a {
+    margin: 0 8px;
+    color: black;
+    font-size: 18px;
+}
+
+/* RIGHT PANEL */
+.right {
+    width: 65%;
+    max-width: 700px;
+}
+
+/* PUBLICATIONS */
+.publications {
+    background: #f5f5f5;
+    padding: 30px;
+}
+
+.publications h2 {
+    margin-left: 10%;
+}
+
+.publications p {
+    margin: 10px 10%;
+}

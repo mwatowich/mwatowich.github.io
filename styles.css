@@ -25,13 +25,15 @@ body {
 /* MAIN LAYOUT */
 .container {
     display: flex;
-    margin-top: 80px;
+    margin: 80px auto 0 auto;   /* centers horizontally */
     padding: 20px;
+    max-width: 1000px;          /* key: prevents stretching */
+    justify-content: center;    /* keeps content centered */
 }
 
 /* LEFT PANEL */
 .left {
-    width: 35%;
+    width: 30%;
     text-align: center;
 }
 
@@ -94,8 +96,13 @@ body {
 
 /* RIGHT PANEL */
 .right {
-    width: 65%;
-    max-width: 700px;
+    width: 70%;
+    max-width: 650px;
+}
+
+.right p {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* PUBLICATIONS */

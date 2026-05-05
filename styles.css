@@ -36,10 +36,34 @@ body {
 }
 
 .profile-img {
-    width: 120px;
-    height: 120px;
+    width: 60%;          /* scales with left column */
+    max-width: 140px;    /* prevents it from getting huge */
+    height: auto;
+    aspect-ratio: 1 / 1;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.left {
+    width: 25%;
+    min-width: 180px;  /* prevents collapse on small screens */
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    .profile-img {
+        width: 40%;
+        max-width: 120px;
+    }
 }
 
 /* PROFILE BOX */

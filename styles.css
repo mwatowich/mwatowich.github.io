@@ -24,20 +24,18 @@ body {
 
 /* PAGE HEADER (for Publications + Press pages only) */
 .page-header {
-    margin-top: 80px; /* accounts for fixed navbar */
+    margin-top: 80px;
     text-align: center;
-    padding: 20px 0 10px 0;
-    position: relative;
+    padding: 30px 0 10px 0;
 }
 
 .page-header h1 {
     font-size: 28px;
-    font-weight: normal;
     margin: 0;
 }
 
 .header-line {
-    width: 40%;
+    width: 50%;
     height: 2px;
     background: black;
     margin: 12px auto 0 auto;
@@ -107,19 +105,38 @@ body {
 
 /* PUBLICATIONS */
 .publications {
-    background: #f5f5f5;
-    padding: 30px;
-    margin-top: 30px;
+    background: transparent;   /* remove grey box */
+    padding: 40px 0;
+    margin-top: 20px;
 }
 
 .publications h2 {
-    margin-left: 10%;
-    margin-bottom: 15px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
+/* Each publication */
 .publications p {
-    margin: 10px 10%;
-    line-height: 1.4;
+    margin: 0 auto;
+    padding: 18px 0;
+    max-width: 700px;
+    line-height: 1.5;
+    position: relative;
+}
+
+/* Divider line */
+.publications p:not(:last-child)::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 1.5px;
+    background: black;
+    margin: 18px auto 0 auto;
+}
+
+.page-grey {
+    background: #f5f5f5;
+    min-height: 100vh;
 }
 
 /* MOBILE */

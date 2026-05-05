@@ -36,6 +36,13 @@ body {
     margin: 0;
 }
 
+.header-line {
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    margin: 16px auto 0 auto;
+}
+
 /* MAIN LAYOUT */
 .container {
     display: flex;

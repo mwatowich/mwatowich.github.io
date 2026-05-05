@@ -19,7 +19,7 @@ body {
     margin: 0 18px;
     text-decoration: none;
     color: black;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /* PAGE HEADER (for Publications + Press pages only) */
@@ -61,7 +61,7 @@ body {
 
 .profile-img {
     width: 60%;
-    max-width: 140px;
+    max-width: 200px;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     object-fit: cover;
@@ -91,7 +91,7 @@ body {
 .icons a {
     margin: 0 8px;
     color: black;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 /* RIGHT PANEL */

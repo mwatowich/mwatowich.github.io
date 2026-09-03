@@ -122,6 +122,11 @@ body {
     margin-bottom: 15px;
 }
 
+.publications h3 {
+    margin-left: 10%;
+    margin-bottom: 15px;
+}
+
 .publications p {
     margin: 10px 10%;
     line-height: 1.4;
